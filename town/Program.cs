@@ -10,6 +10,8 @@ namespace town
     {
         static void Main(string[] args)
         {
+            var house = new TownsBuilding("house");
+            Console.WriteLine(house.ToString());
         }
     }
 }
