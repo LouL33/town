@@ -10,8 +10,19 @@ namespace town
     {
         static void Main(string[] args)
         {
-            var house = new TownsBuilding("house");
-            Console.WriteLine(house.ToString());
+            TownsBuilding houseA = new TownsBuilding()
+            {
+
+            };
+            TownsBuilding houseB = new TownsBuilding()
+            {
+
+            };
+            TownsBuilding houseC = new TownsBuilding()
+            {
+
+            };
+
         }
     }
 }
